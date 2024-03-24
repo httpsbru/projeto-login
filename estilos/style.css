@@ -69,12 +69,33 @@ main{
     display: block;
     width: 100%;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
+    border: 2px solid #5f2c82;
 }
 
 label{
     display: none;
+}
+
+.campo > span{
+    color: white;
+    /* background-color: black; */
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+.campo > input{
+    background-color: #94cfcd;
+    font-size: 1em;
+    width: calc(100% - 50px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-11px); /*transformação sempre na ultima linha */
+    
 }
 
 input[type=submit]{
